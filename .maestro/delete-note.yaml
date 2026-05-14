@@ -1,0 +1,17 @@
+appId: host.exp.exponent
+---
+- launchApp
+- waitForAnimationToEnd
+- tapOn:
+    text: "notes-app"
+- waitForAnimationToEnd
+- tapOn:
+    text: "Updated Note Title"
+- waitForAnimationToEnd
+- tapOn:
+    text: "Delete"
+- waitForAnimationToEnd
+- tapOn:
+    text: "Delete"
+- assertVisible:
+    text: "No notes yet"

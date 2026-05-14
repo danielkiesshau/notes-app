@@ -1,0 +1,14 @@
+appId: host.exp.exponent
+---
+- launchApp
+- waitForAnimationToEnd
+- tapOn:
+    text: "notes-app"
+- waitForAnimationToEnd
+- assertVisible:
+    text: "Notes"
+- scroll
+- waitForAnimationToEnd
+- swipe:
+    direction: UP
+

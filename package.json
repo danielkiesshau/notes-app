@@ -8,7 +8,12 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "test:e2e": "maestro test .maestro/",
+    "test:e2e:create": "maestro test .maestro/create-note.yaml",
+    "test:e2e:edit": "maestro test .maestro/edit-note.yaml",
+    "test:e2e:list": "maestro test .maestro/list-notes.yaml",
+    "test:e2e:delete": "maestro test .maestro/delete-note.yaml"
   },
   "dependencies": {
     "@expo/vector-icons": "^15.0.3",
@@ -42,6 +47,7 @@
     "@types/react-native": "^0.72.8",
     "eslint": "^9.25.0",
     "eslint-config-expo": "~10.0.0",
+    "maestro-cli": "^1.1.10",
     "react-native-safe-area-context": "~5.6.0",
     "react-native-screens": "~4.16.0",
     "typescript": "~5.9.2"
