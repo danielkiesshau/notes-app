@@ -1,7 +1,8 @@
 # Notes App 📝
 
 A note-taking application built with Expo, React Native and Maestro E2E testing
-This entirre project was made to explore Copilot CLI + Agent + MCPs (JIRA, Github, Figma) capabilities
+
+This entire project was made to explore Copilot CLI + Agent + MCPs (JIRA, Github, Figma) capabilities
 
 ## Tech Stack
 
