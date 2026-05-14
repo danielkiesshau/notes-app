@@ -1,50 +1,75 @@
-# Welcome to your Expo app 👋
+# Notes App 📝
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A modern note-taking application built with Expo and React Native, designed for quick and easy note management on mobile devices.
 
-## Get started
+## Tech Stack
 
-1. Install dependencies
+- **TypeScript** - 91.3% (Primary language)
+- **JavaScript** - 8.7%
+- **Framework**: Expo
+- **Mobile**: React Native
 
+## Features
+
+- 📱 Cross-platform mobile app (iOS & Android)
+- ✍️ Create, read, and manage notes
+- 💾 Local storage support
+- 🚀 Expo-powered development experience
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+- Expo CLI
+
+### Installation
+
+1. Clone the repository
+   ```bash
+   git clone https://github.com/danielkiesshau/notes-app.git
+   cd notes-app
+   ```
+
+2. Install dependencies
    ```bash
    npm install
    ```
 
-2. Start the app
-
+3. Start the app
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+### Running the App
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
+In the terminal output, you'll find options to open the app in:
+
+- [Development build](https://docs.expo.dev/develop/development-builds/introduction/)
 - [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
 - [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- [Expo Go](https://expo.dev/go) - Quick sandbox for testing
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Development
 
-## Get a fresh project
+Start developing by editing files in the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-When you're ready, run:
-
+To reset the project and start fresh:
 ```bash
 npm run reset-project
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Resources
 
-## Learn more
+- [Expo Documentation](https://docs.expo.dev/)
+- [React Native Docs](https://reactnative.dev/)
+- [TypeScript Handbook](https://www.typescriptlang.org/docs/)
 
-To learn more about developing your project with Expo, look at the following resources:
+## Community
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+- [Expo on GitHub](https://github.com/expo/expo)
+- [Expo Discord Community](https://chat.expo.dev)
 
-## Join the community
+## License
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+This project is open source and available under the MIT License.
