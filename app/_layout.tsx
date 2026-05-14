@@ -14,8 +14,22 @@ export default function RootLayout() {
 
   return (
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
-      <Stack>
+      <Stack screenOptions={{ animation: 'slide_from_right' }}>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        <Stack.Screen
+          name="create-note"
+          options={{
+            title: 'Create Note',
+            headerBackTitle: 'Notes',
+          }}
+        />
+        <Stack.Screen
+          name="edit-note/[noteId]"
+          options={{
+            title: 'Edit Note',
+            headerBackTitle: 'Notes',
+          }}
+        />
         <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Modal' }} />
       </Stack>
       <StatusBar style="auto" />
