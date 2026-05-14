@@ -1,6 +1,7 @@
 # Notes App 📝
 
-A modern note-taking application built with Expo and React Native, designed for quick and easy note management on mobile devices.
+A note-taking application built with Expo, React Native and Maestro E2E testing
+This entirre project was made to explore Copilot CLI + Agent + MCPs (JIRA, Github, Figma) capabilities
 
 ## Tech Stack
 
