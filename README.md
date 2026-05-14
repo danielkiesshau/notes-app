@@ -43,6 +43,11 @@ This entire project was made to explore Copilot CLI + Agent + MCPs (JIRA, Github
    npx expo start
    ```
 
+4. Run e2e tests
+   ```bash
+    yarn e2e
+   ```
+
 ### Running the App
 
 In the terminal output, you'll find options to open the app in:
